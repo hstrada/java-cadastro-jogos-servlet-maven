@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.senai.sp</groupId>
-	<artifactId>java-cadastro-jogos-servlet-maven</artifactId>
+	<artifactId>java-cadastro-jogos-servlet</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>java-cadastro-jogos-servlet Maven Webapp</name>
@@ -38,6 +38,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>java-cadastro-jogos-servlet-maven</finalName>
+		<finalName>java-cadastro-jogos-servlet</finalName>
 	</build>
 </project>

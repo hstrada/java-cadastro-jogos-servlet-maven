@@ -1,7 +1,6 @@
 package br.senai.sp.servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -26,8 +25,6 @@ public class AdicionarJogoServlet extends HttpServlet {
 	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-		PrintWriter out = resp.getWriter();
 
 		String nome = req.getParameter("nome");
 		String desenvolvedor = req.getParameter("desenvolvedor");

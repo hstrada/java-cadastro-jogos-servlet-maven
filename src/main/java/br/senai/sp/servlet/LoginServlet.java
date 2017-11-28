@@ -36,8 +36,8 @@ public class LoginServlet extends HttpServlet {
 
 			// System.out.println(usuario + senha);
 			
-			UsuarioDAO usuarioDAO = new UsuarioDAO();
-			Usuario retorno = usuarioDAO.buscarUsuario(usuario, senha);
+			UsuarioDAO usuarioDao = new UsuarioDAO();
+			Usuario retorno = usuarioDao.buscarUsuario(usuario, senha);
 		
 			if (retorno != null) {
 				HttpSession session = request.getSession();

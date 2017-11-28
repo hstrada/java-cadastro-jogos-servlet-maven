@@ -16,8 +16,10 @@ public class ConnectionFactory {
 			return DriverManager.getConnection("jdbc:mysql://localhost:3306/db_jogos_senai?autoReconnect=true&useSSL=false",
 					"root", "root");
 		} catch (SQLException e) {
+			System.out.println(e.getMessage());
 			throw new RuntimeException(e);
 		} catch (ClassNotFoundException e) {
+			System.out.println(e.getMessage());
 			throw new RuntimeException(e);
 		}
 	}

@@ -29,7 +29,7 @@ public class LoginFilter implements Filter {
 		Usuario usuario = (Usuario) session.getAttribute("session_usuario");
 
 		if (usuario == null) {
-			((HttpServletResponse) response).sendRedirect("/java-cadastro-jogos-servlet-maven/login.jsp");
+			((HttpServletResponse) response).sendRedirect("/java-cadastro-jogos-servlet/login.jsp");
 		}
 		chain.doFilter(request, response);
 	}

@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	Jogo ${param.nome} adicionado com sucesso.
+	Usuário ${param.nome} adicionado com sucesso.
 
 
 </body>
